@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Single-page design portfolio</title>
+</head>
+<body>
+  <header class="header row">
+    <a href="./"><img class="row__logo" src="./images/logo.svg" alt="logo"></a>
+    <a class="row__btn btn btn--dark" href="#">Free Consultation</a>
+  </header>
+
+  <main class="main">
+
+    <section class="hero">
+      <div class="hero__text">
+        <h1 class="hero__title">Design solutions made easy</h1>
+        <p>With over ten years of experience in various design disciplines, I'm your one-stop shop for your design needs.</p>
+      </div>
+      <ul class="hero__grid">
+        <li class="item">
+          <h4 class="item__title">Graphic Design</h4>
+          <img class="item__icon" src="../images/pattern-graphic-design.svg" alt="Graphic Design">
+        </li>
+        <li class="item">
+          <h4 class="item__title">UI/UX</h4>
+          <img class="item__icon" src="./images/pattern-ui-ux.svg" alt="UI / UX">
+        </li>
+        <li class="item">
+          <h4 class="item__title">Apps</h4>
+          <img class="item__icon" src="./images/pattern-apps.svg" alt="Apps">
+        </li>
+        <li class="item">
+          <h4 class="item__title">Illustrations</h4>
+          <img class="item__icon" src="./images/pattern-illustrations.svg" alt="Illustrations">
+        </li>
+        <li class="item">
+          <h4 class="item__title">Photography</h4>
+          <img class="item__icon" src="./images/pattern-photography.svg" alt="Photography">
+        </li>
+        <li class="item">
+          <h4 class="item__title">Motion Graphics</h4>
+          <img class="item__icon" src="./images/pattern-motion-graphics.svg" alt="Motion Graphics">
+        </li>
+      </ul>
+    </section>
+
+    <section class="about">
+      <img class="about__img" src="./images/image-amy.webp" alt="Amy">
+      <div class="about__text">
+        <h2 class="about__title">I'm Amy, and I'd love to work on your next project</h2>
+        <p>I love working with others to create beautiful design solutions. I've designed everything from brand illustrations to complete mobile apps. I'm also handy with a camera!</p>
+        <a class="about__btn btn btn--accent" href="#">Free Consultation</a>
+      </div>
+    </section>
+
+    <section class="work">
+      <h2 class="work__title">My Work</h2>
+      <div class="work__slider">
+        <img src="./images/image-slide-1.jpg" alt="slide-1">
+        <img src="./images/image-slide-2.jpg" alt="slide-2">
+        <img src="./images/image-slide-3.jpg" alt="slide-3">
+        <img src="./images/image-slide-4.jpg" alt="slide-4">
+        <img src="./images/image-slide-5.jpg" alt="slide-5">
+      </div>
+      <div class="work__btns">
+        <div class="arrow arrow--prev" style="display: flex;"><img src="./images/icon-arrow-left.svg" alt="Arrow left"></div>
+        <div class="arrow arrow--next" style="display: flex;"><img src="./images/icon-arrow-right.svg" alt="Arrow right"></div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta__card">
+        <div class="cta__text">
+          <h3 class="cta__title">Book a call with me</h3>
+          <p>I'd love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
+        </div>
+        <a class="cta__btn btn btn--accent" href="#">Free Consultation</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer row">
+    <a href="./"><img class="row__logo" src="./images/logo.svg" alt="logo"></a>
+    <a class="row__btn btn btn--dark" href="#">Free Consultation</a>
+  </footer>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

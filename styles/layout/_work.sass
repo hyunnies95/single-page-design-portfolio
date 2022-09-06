@@ -1,0 +1,51 @@
+.work
+  text-align: center
+  margin-bottom: 9.5rem
+  @media screen and (min-width: 650px)
+    margin-bottom: 11.7rem
+  @media screen and (min-width: 1024px)
+    margin-bottom: 8.8rem
+  &__title
+    margin-bottom: 2.9rem
+    @media screen and (min-width: 650px)
+      margin-bottom: 5.4rem
+    @media screen and (min-width: 1024px)
+      font-size: 3.2rem
+      margin-bottom: 5rem
+  &__slider
+    margin-bottom: 3.1rem
+    @media screen and (min-width: 650px)
+      margin-bottom: 5.6rem
+    & img
+      border-radius: 1rem
+      cursor: grab
+      height: 17.3rem
+      @media screen and (min-width: 650px)
+        height: 35rem
+      @media screen and (min-width: 1024px)
+        height: 35.4rem
+      &:active
+        cursor: grabbing
+    & .slick-track
+      display: flex
+      gap: 1.5rem
+      @media screen and (min-width: 650px)
+        gap: 3rem
+
+  &__btns
+    display: flex
+    align-items: center
+    justify-content: center
+    gap: 1.5rem
+    & .arrow
+      background-color: $col-neutral-900
+      border-radius: 50%
+      cursor: pointer
+      display: flex
+      align-items: center
+      justify-content: center
+      transition: 0.3s background-color
+      height: 6.2rem
+      width: 6.2rem
+      &:hover
+        background-color: $col-purple-300
